@@ -2,6 +2,64 @@
 
 Este arquivo lista, versão por versão, o que entrou, o que mudou e o que foi corrigido. A mais nova fica no alto. As versões antigas, com os arquivos para baixar, ficam nas releases do GitHub.
 
+## 0.11.0: a casa viva, energia e pega-pega, 17/11/2026
+
+### Novo
+- Você tem energia:
+  - Shift com a seta para cima corre, e correr gasta energia;
+  - trabalhar e brincar também cansam; ficar parado não;
+  - comer e deitar na cama devolvem energia, e sentar no sofá ou no banco também, mais devagar;
+  - cansado, você anda mais devagar, mas nunca para;
+  - a tecla E diz quanta energia você tem;
+  - no trabalho do mercado, com muita energia o turno ganha tempo, e muito cansado perde um pouco.
+- Você também come com gosto: cada personagem adora duas comidas e não gosta de uma. A comida que você adora dá mais energia.
+- A casa está muito maior:
+  - sala, quarto, cozinha e banheiro mais largos, com lugar para os pets correrem;
+  - uma garagem com portão e entrada de carro;
+  - um corredor do lado da casa e um quintal grande, com árvore, banco e plantas;
+  - uma escada no canto da sala, que leva a um andar de cima grande, ainda vazio.
+- A casa agora precisa de cuidado:
+  - Enter numa tigela abre o menu dela: encher com a ração que você escolher, ou pegar a tigela;
+  - com a tigela ou o regador na mão, Enter numa torneira ou pia abre e fecha a água. A tigela enche de água, e a tigela suja é lavada (com sabão fica limpinha; só com água, melhora um pouco);
+  - se você deixar a torneira aberta à toa, a água continua correndo e o jogo avisa que está desperdiçando;
+  - as plantas precisam de água. Sem água elas murcham, e depois de alguns dias secam, e os pets perdem a sombra delas;
+  - as tigelas sujam a cada refeição, e o pet não gosta de comer em vasilha suja;
+  - pet sujo, tigela suja e cocô pela casa aumentam o risco de doença.
+- Cocô e caixa de areia:
+  - os gatos usam a caixa de areia; os cachorros, a grama do quintal ou do jardim;
+  - Enter recolhe o cocô e limpa a caixa de areia;
+  - caixa cheia demais, o gato faz fora dela.
+- Higiene dos pets, no menu do pet (Enter perto dele):
+  - banho em casa, na torneira do quintal, na banheira (se você comprar uma) ou a seco, com espuma;
+  - cada pet prefere um tipo de banho, e a maioria dos gatos não gosta de água;
+  - escovar o pelo e cortar as unhas;
+  - o menu do pet diz o humor, a energia e se ele está limpo, com o pelo bonito e as unhas boas.
+- Os pets têm energia e humor:
+  - brincar e andar cansam; cansados, eles andam mais devagar e vão dormir;
+  - dormem onde preferem: na cama, na caminha, na casinha, no sofá ou no chão;
+  - no calor, deitam na sombra das árvores e das plantas.
+- Comidas novas na Animais & Vida, com gostos diferentes: sachês, patê, ração de filhote, ração light e frango cozido. Cada pet tem uma comida favorita e uma de que não gosta.
+- Vasilhas novas na Animais & Vida: pratinho, fonte de água e tigela alta. Cada pet prefere um tipo.
+- Mais coisas na Animais & Vida: banheira, caminha macia, casinha grande, caixa de areia, shampoo, espuma de banho a seco, escova e cortador de unhas.
+- Pega-pega no quintal: no menu do pet, no quintal, escolha brincar. O pet sai correndo com um bipe; corra atrás dele e chegue do lado para pegar. Ele fica feliz, ganhe ou perca.
+- As pessoas da cidade têm rotina:
+  - a Dona Célia passeia de manhã na rua de casa e no fim da tarde perto da praça;
+  - a Ana, a carteira, entrega cartas de manhã perto do mercado, almoça na padaria e passa à tarde pela rua de casa;
+  - o Seu José pesca na praia de manhã cedo e à tarde, e no fim da manhã passa pela padaria;
+  - de noite, cada um está na sua casa;
+  - o Seu Antônio, o gerente, sai para almoçar ao meio-dia, e o Seu Jorge, o padeiro, às vezes vai ao forno lá dentro.
+
+### Mudou
+- Quando você esbarra nos pets mais de 5 vezes seguidas, os que estão perto se afastam e abrem espaço por um tempo.
+- A Vila das Casas ficou com lotes maiores, do tamanho da sua casa nova.
+- A ajuda do F1 no mapa explica a corrida, a energia, a torneira, as tigelas, as plantas e a escada.
+
+### Sons
+- Novos: torneira, água enchendo, lavar, escovar, regar, caixa de areia, recolher cocô, cortar unhas e o pet dormindo.
+- O assobio é novo, com quatro jeitos de assobiar.
+- A bola tem sons novos: borracha no chão, quicando leve, macia na grama, e uma bolinha que apita quando o pet pega na boca.
+- Trocados: lata, iogurte, queijo, pão, biscoito, ração e sabão no mercado; virar carta, aviso de tempo e fim do turno nos trabalhos; o cliente chegando na padaria; o gato e o cachorro no reflexo dos bichinhos.
+
 ## 0.10.1: ruas livres, a calçada falada e a Vila das Casas, 17/11/2026
 
 ### Novo
