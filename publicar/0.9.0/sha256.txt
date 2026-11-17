@@ -1,3 +1,0 @@
-ab104e550518b4b90601064c4c881cd3865e06382eb9254165733543b2e6c739  PetWorlds-0.9.0-etapa10-android.apk
-024cdfba5750bf53189f5e5038a723ad13e3a531a9aa63e667f2328bb3fb15cd  PetWorlds-0.9.0-etapa10-linux.zip
-2ff4fa633a0aa006495a79c779e5e7fd740a0b93dfcc6a19e50eff6f772b5553  PetWorlds-0.9.0-etapa10-windows.zip
