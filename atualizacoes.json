@@ -1,0 +1,87 @@
+{
+  "formato": 1,
+  "versoes": [
+    {
+      "versao": "0.9.2",
+      "data": "2026-11-17",
+      "novidades": {
+        "pt-BR": [
+          "Esta é a versão de teste da atualização automática. Se você está ouvindo isto depois de atualizar, a atualização funcionou.",
+          "O save passa a guardar a versão do jogo que salvou por último. Os saves da 0.9.1 são convertidos sozinhos para o formato novo, e o original fica guardado em dados/perfis/copias."
+        ],
+        "en": [
+          "This is the test version for the automatic update. If you are hearing this after updating, the update worked.",
+          "Saves now remember the version of the game that saved them last. Saves from 0.9.1 are converted by themselves to the new format, and the original is kept in dados/perfis/copias."
+        ]
+      },
+      "arquivos": {
+        "windows": {
+          "nome": "PetWorlds-0.9.2-windows.zip",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.9.2/PetWorlds-0.9.2-windows.zip",
+          "sha256": "861e92dd56c784f0d47ee6e043b371c36ecfec7add70631dfaa2cf528a092d3f",
+          "tamanho": 101281051
+        },
+        "linux": {
+          "nome": "PetWorlds-0.9.2-linux.zip",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.9.2/PetWorlds-0.9.2-linux.zip",
+          "sha256": "34cd0c4b726645c1b374fd3a82e90bf9018354541150d9fd9a93544ca932546b",
+          "tamanho": 88877747
+        },
+        "android": {
+          "nome": "PetWorlds-0.9.2-android.apk",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.9.2/PetWorlds-0.9.2-android.apk",
+          "sha256": "1f223a71add0c5f774dcf09da28595e52002dc14e5774a2f08325d1e2b9d4ee6",
+          "tamanho": 74866688
+        }
+      }
+    },
+    {
+      "versao": "0.9.1",
+      "data": "2026-11-17",
+      "novidades": {
+        "pt-BR": [
+          "O jogo agora se atualiza sozinho. Ao abrir, ele procura versão nova e, se houver, fala qual é e o que mudou.",
+          "Menu Atualização, no menu inicial: instalar a versão nova, ouvir o que há de novo, procurar agora e voltar para a versão anterior.",
+          "A procura ao abrir pode ser desligada em Opções ou no menu Atualização.",
+          "No Windows e no Linux, o jogo baixa a versão nova, confere o arquivo e troca os arquivos sozinho, sem tocar na pasta dados. Seus saves, contas e opções continuam.",
+          "Antes de trocar, o jogo guarda uma cópia da versão antiga e dos saves. Se a troca falhar, tudo volta como estava.",
+          "No Android, o jogo baixa o APK e abre o instalador do Android.",
+          "Quando o formato do save mudar, o save antigo é convertido sozinho, e o original fica guardado em dados/perfis/copias.",
+          "O APK do Android passa a ter uma assinatura permanente. Por isso, só desta vez, é preciso desinstalar a 0.9.0 antes de instalar a 0.9.1 no celular.",
+          "O número da versão perdeu o nome da etapa: agora é só 0.9.1."
+        ],
+        "en": [
+          "The game now updates itself. When it opens, it looks for a new version and, if there is one, says which one and what changed.",
+          "Update menu, in the main menu: install the new version, hear what is new, check now and go back to the previous version.",
+          "Checking when the game opens can be turned off in Options or in the Update menu.",
+          "On Windows and Linux, the game downloads the new version, checks the file and swaps the files by itself, without touching the dados folder. Your saves, accounts and options stay.",
+          "Before swapping, the game keeps a copy of the old version and of the saves. If the swap fails, everything goes back to how it was.",
+          "On Android, the game downloads the APK and opens the Android installer.",
+          "When the save format changes, old saves are converted by themselves, and the original is kept in dados/perfis/copias.",
+          "The Android APK now has a permanent signature. Because of that, this one time only, you need to uninstall 0.9.0 before installing 0.9.1 on the phone.",
+          "The version number no longer has the stage name: it is now just 0.9.1."
+        ]
+      },
+      "arquivos": {
+        "windows": {
+          "nome": "PetWorlds-0.9.1-windows.zip",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.9.1/PetWorlds-0.9.1-windows.zip",
+          "sha256": "7e9a00467a03a3e8b4f127bdba1daa819942ec13cce977b82cfc17dc1ad32dc0",
+          "tamanho": 101280526
+        },
+        "linux": {
+          "nome": "PetWorlds-0.9.1-linux.zip",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.9.1/PetWorlds-0.9.1-linux.zip",
+          "sha256": "179f86832a5052e237057bc324d2daf9a4306bec1d4a2d4c030318156fcf3689",
+          "tamanho": 88877223
+        },
+        "android": {
+          "nome": "PetWorlds-0.9.1-android.apk",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.9.1/PetWorlds-0.9.1-android.apk",
+          "sha256": "99eb31da0f4179bff0d7cc7a98dc3c592b50dc21346e30929a330a61d470435c",
+          "tamanho": 74866688
+        }
+      }
+    }
+  ]
+}
