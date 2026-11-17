@@ -1,0 +1,3 @@
+1de74fdeeb3d4ea6a6e482cba3f102d0d57fedff1848fb4ce6b5cf60166e6922  PetWorlds-0.6.0-etapa7-android.apk
+ccf1c5df78a2baa79650a61153114737d8d291445fd82db3b967a1ce0e022b31  PetWorlds-0.6.0-etapa7-linux.zip
+4d375eae434a2bdbbd3f76ef97a88becd4d1387d0f45abb7b92244d3e785627e  PetWorlds-0.6.0-etapa7-windows.zip

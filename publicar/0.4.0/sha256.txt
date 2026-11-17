@@ -1,3 +1,0 @@
-7c0e24e9cc4016b72bd06df8ef8412fad5415abffd57962bf8269fde4fd6be1c  PetWorlds-0.4.0-etapa5-android.apk
-0b742c299d9eed523b10216eded3112ca1eb5024fd30900af5cadb6ed4356e96  PetWorlds-0.4.0-etapa5-linux.zip
-ad08c53f0d7b4115652e24621e54b8e5e3916d66ea20c6232db3d630121eb94d  PetWorlds-0.4.0-etapa5-windows.zip
