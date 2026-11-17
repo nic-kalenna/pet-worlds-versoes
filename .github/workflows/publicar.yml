@@ -1,0 +1,52 @@
+name: Publicar versões
+
+# Cada pasta em publicar/<versão>/ vira um release, da versão mais antiga para a mais nova.
+# Na pasta: nome.txt (título), notas.md (texto), tipo.txt ("beta", "normal" ou "mais-recente"),
+# sha256.txt e os arquivos. Arquivo grande vem em partes (nome.parte00, nome.parte01...), juntado aqui.
+on:
+  push:
+    branches: [envio]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Criar os releases em ordem
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          [ -d publicar ] || { echo "Nada para publicar."; exit 0; }
+          for d in $(ls -d publicar/*/ | sort -V); do
+            v=$(basename "$d"); tag="v$v"
+            echo "=== $v"
+            (cd "$d"
+             for p in $(ls *.parte00 2>/dev/null); do
+               nome="${p%.parte00}"; cat "$nome".parte* > "$nome"; rm "$nome".parte*
+             done
+             sha256sum -c sha256.txt)
+            tipo=$(cat "$d/tipo.txt")
+            arquivos=$(find "$d" -maxdepth 1 -type f ! -name nome.txt ! -name notas.md ! -name tipo.txt | sort)
+            case "$tipo" in
+              beta) flags="--prerelease --latest=false" ;;
+              mais-recente) flags="--latest" ;;
+              *) flags="--latest=false" ;;
+            esac
+            if gh release view "$tag" >/dev/null 2>&1; then
+              gh release edit "$tag" --title "$(cat "$d/nome.txt")" --notes-file "$d/notas.md" $flags
+              gh release upload "$tag" $arquivos --clobber
+            else
+              gh release create "$tag" --target main --title "$(cat "$d/nome.txt")" --notes-file "$d/notas.md" $flags $arquivos
+            fi
+            gh release view "$tag" --json assets --jq '.assets[] | "\(.name) \(.size)"'
+            sleep 2
+          done

@@ -1,0 +1,3 @@
+bd4e417108ba2f38a916a0b42e4fee59c09f2be350cad9e6c86cac23c0811388  TesteDoPetWorlds-0.1.1-etapa1-android.apk
+89031728f3b0f4d0de752c7fe645c358c4c126967ca5a0023b8240087687ee65  TesteDoPetWorlds-0.1.1-etapa1-linux.zip
+61d57ee1abc58d3ec020be5b3f0b3feccb3d4969451338c4073a22e1afb62d2a  TesteDoPetWorlds-0.1.1-etapa1-windows.zip
