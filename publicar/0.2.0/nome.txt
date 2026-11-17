@@ -1,1 +1,0 @@
-Pet Worlds 0.2.0 beta (etapa 3): menu inicial, contas, opções, idiomas e teclas
