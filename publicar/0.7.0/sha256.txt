@@ -1,0 +1,3 @@
+40d9a89ebfff14d984a4fb5b7fd8b3b2286614f3b1d655cd1ce84e1f23b448f7  PetWorlds-0.7.0-etapa8-android.apk
+384e249bd3c06a18fee03f55f0a31fd89af839ac93691dbd5732f2360b4196ee  PetWorlds-0.7.0-etapa8-linux.zip
+07bfa059b5d2675fa1875937c6d43374b8e4561316a5d00224c1b07d44c9bb05  PetWorlds-0.7.0-etapa8-windows.zip
