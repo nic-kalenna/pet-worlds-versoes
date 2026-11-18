@@ -1,3 +1,0 @@
-3c76c49f2ed8b20bc3d6990847c0007eda7ee2643cd4b5c20284c42f227c4ab2  PetWorlds-0.11.0-android.apk
-4cf585be7410157dcb49824bffab76dfeb18faf847d4771dff4bc4131c54030a  PetWorlds-0.11.0-linux.zip
-4b629419e597e08696e57fc400a0f7a8aadcd93eafe0eb2d325237adeaa792ec  PetWorlds-0.11.0-windows.zip
