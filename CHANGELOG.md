@@ -2,6 +2,11 @@
 
 Este arquivo lista, versão por versão, o que entrou, o que mudou e o que foi corrigido. A mais nova fica no alto. As versões antigas, com os arquivos para baixar, ficam nas releases do GitHub.
 
+## 0.12.1: radar ao virar, 18/11/2026
+
+### Corrigido
+- O radar não repete mais os sons quando você vira. Ele lembra o que já tinha em cada direção: depois de virar, só toca o que é novo, e uma parede ou um móvel que acabou de tocar não toca de novo.
+
 ## 0.12.0: brincar e passear, 18/11/2026
 
 ### Novo

@@ -2,6 +2,35 @@
   "formato": 1,
   "versoes": [
     {
+      "versao": "0.12.1",
+      "data": "2026-11-18",
+      "novidades": {
+        "pt-BR": [
+          "O radar não repete mais os sons quando você vira. Ele lembra o que já tinha em cada direção: depois de virar, só toca o que é novo, e uma parede ou um móvel que acabou de tocar não toca de novo."
+        ]
+      },
+      "arquivos": {
+        "windows": {
+          "nome": "PetWorlds-0.12.1-windows.zip",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.12.1/PetWorlds-0.12.1-windows.zip",
+          "sha256": "4514c3ce9b00cfe9140b6edca676182247d9262c629109a6de81ef30fcffa2a7",
+          "tamanho": 110356159
+        },
+        "linux": {
+          "nome": "PetWorlds-0.12.1-linux.zip",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.12.1/PetWorlds-0.12.1-linux.zip",
+          "sha256": "29e64c4dc51c8f52c4443e60723841c224ccdb855f6307936972cb7e089a7b9b",
+          "tamanho": 97952875
+        },
+        "android": {
+          "nome": "PetWorlds-0.12.1-android.apk",
+          "url": "https://github.com/nic-kalenna/pet-worlds-versoes/releases/download/v0.12.1/PetWorlds-0.12.1-android.apk",
+          "sha256": "4fa27376fbba9d6e956c74e87e218e313056eb23533bd5e48fba0691441ae19e",
+          "tamanho": 83972254
+        }
+      }
+    },
+    {
       "versao": "0.12.0",
       "data": "2026-11-18",
       "novidades": {
