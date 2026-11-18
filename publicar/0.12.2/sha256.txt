@@ -1,0 +1,3 @@
+121ba9f0edf011800df8844be05dac7b434eb3c92cf448a698dc6f6596de1e4c  PetWorlds-0.12.2-android.apk
+cf6796039a52d514257cceda0319fdf0d86af0bea926a1644ea0cfd6b448bd07  PetWorlds-0.12.2-linux.zip
+f2baf21d21707bec614b4d1bf9ab9276cc6629e0e0c47bb7cb905c59d1f33795  PetWorlds-0.12.2-windows.zip
